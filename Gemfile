@@ -39,3 +39,9 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+#I want to create serializers easily
+gem 'fast_jsonapi'
+
+#I want to fake a whole bunch of seed data and shit
+gem 'faker'
